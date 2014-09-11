@@ -1,10 +1,14 @@
 body {
     background: #775D42;
+    font: 100% Verdana normal sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .wrapper  {
     margin-left: auto;
     margin-right: auto;
     width: 650px;
+    margin: 40px 0;
 }
 header  {
     width: 650px;
@@ -19,4 +23,21 @@ header  {
     background-repeat: no-repeat;
     background-size: auto;
     border-bottom: 1px solid #000000;
+}
+.heading {
+    width: 650px;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    background: #B7734B;
+    border: solid #000000;
+    border-width: 0 0 1px 0;
+}
+.heading h1  {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
 }

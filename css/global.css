@@ -1,0 +1,22 @@
+body {
+    background: #775D42;
+}
+.wrapper  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+header  {
+    width: 650px;
+    height: 201px;
+    margin: 0 auto;
+}
+.logotype  {
+    width: 650px;
+    height: 125px;
+    margin: 40px 0 0 0;
+    background-image: url(../img/headerlogo.gif);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-bottom: 1px solid #000000;
+}

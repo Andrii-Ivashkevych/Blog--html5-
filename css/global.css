@@ -21,7 +21,8 @@ header  {
     background-image: url(../img/headerlogo.gif);
     background-repeat: no-repeat;
     background-size: auto;
-    border-bottom: 1px solid #000000;
+    border: solid #000000;
+    border-width: 0 0 1px 0;
 }
 .heading {
     width: 650px;

@@ -6,26 +6,27 @@ body {
 .wrapper  {
     margin-left: auto;
     margin-right: auto;
-    width: 650px;
+    width: 100%;/* We withhold distant div with this class. */
+    max-width: 960px;
 }
 header  {
-    width: 650px;
+    width: 100%;
     height: 201px;
     margin: 0 auto;
 }
 .logotype  {
     display: block;
-    width: 650px;
+    width: 100%;/* 650px x 650px */
     height: 125px;
     margin: 40px 0 0 0;
     background-image: url(../img/headerlogo.gif);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
     border: solid #000000;
     border-width: 0 0 1px 0;
 }
 .heading {
-    width: 650px;
+    width: 100%;/* 650px x 650px */
     height: 75px;
     margin: 0;
     padding: 0;
@@ -44,7 +45,8 @@ header  {
 }
 .left_sidebar  {
     float: left;
-    width: 130px;
+    width: 20%;/* 130px x 650px */
+    /*width: 130px;*/
     height: 1226px;
     padding: 1em;
     background: #CDB39A;
@@ -57,16 +59,19 @@ ul  {
 li  {
     padding: 3px 0 0 0;
     text-align: center;
-    margin-left: -35px;
+    margin-left: -26.92307692307692%;/* 35px x 130px */
+    /*margin-left: -35px;*/
 }
 .divider  {
-    width: 100px;
+    width: 76.92307692307692%;/* 100px x 130px */
+    /*width: 100px;*/
     height: 20px;
     background-image: url(../img/divider.gif);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    margin-left: 15px;
+    margin-left: 11.53846153846154%;
+    /*margin-left: 15px;*/
 }
 nav a:link  {
     color: #775D42;
@@ -82,7 +87,8 @@ nav a:hover  {
 }
 .content  {
     float: right;
-    width: 440px;
+    width: 67.69230769230769%;/* 440px x 650px */
+    /*width: 440px;*/
     height: 1226px;
     background: #ffffff;
     margin: 1px 0 0 0;
@@ -91,10 +97,11 @@ nav a:hover  {
 .content p  {
     margin: 13.76px 0;
     padding: 10px;
-    font-size: 14px;
+    font-size: .875em;/* 14px x 16 px = 0.875 */
 }
 .leaves_left, .leaves_right  {
-    width: 125px;
+    width: 28.40909090909091%;/* 125px x 440px */
+    /*width: 125px;*/
     height: 93px;
     background-image: url("../img/leaves.gif");
     background-repeat: no-repeat;
@@ -109,7 +116,7 @@ nav a:hover  {
 }
 footer  {
     clear: both;
-    width: 650px;
+    width: 100%;/* 650px x 650px */
     height: 18px;
     background: #B7734B;
     border-top: 1px solid #000000;
